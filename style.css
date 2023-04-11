@@ -157,7 +157,7 @@ a.button {
 @media only screen and (max-width: 500px) {
   #content > div {
     width: max(80vw, 350px);
-    height: calc((max(80vw, 350px) * (3/5)) + 40px + 2.1vw + 1.7vw + 15px);
+    height: calc((max(80vw, 350px) * (3/5)) + 40px + 20px + 1.7vw + 15px);
   }
   
   #content {
@@ -183,9 +183,6 @@ a.button {
   
   .contentHeader {
     font-size: 25px;
-    top: 0;
-    left: 0;
-    position: absolute;
     margin-bottom: 25px;
   }
   
@@ -193,7 +190,8 @@ a.button {
     bottom: 0;
     left: 0;
     right: none;
-    width: calc(max(80vw, 350px) - 8.32vw);
+    width: calc(max(80vw, 350px));
     position: absolute;
+    padding: 10px 0;
   }
 }
