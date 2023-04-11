@@ -164,13 +164,6 @@ a.button {
     padding-left: calc((100vw - max(80vw, 350px)) / 2);
   }
   
-  .contentHeader {
-    font-size: 25px;
-    top: 0;
-    left: 0;
-    position: absolute;
-  }
-  
   #content > div img {
     width: max(80vw, 350px);
     height: calc(max(80vw, 350px) * (3/5));
@@ -186,6 +179,13 @@ a.button {
     font-size: 16px;
     margin: 0;
     width: max(40vw, 175px);
+  }
+  
+  .contentHeader {
+    font-size: 25px;
+    top: 0;
+    left: 0;
+    position: absolute;
   }
   
   a.button {
