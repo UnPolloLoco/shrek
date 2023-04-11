@@ -143,6 +143,7 @@ a.button {
   background: var(--swampy);
   padding: 1.05vw 4.16vw;
   border-radius: 0.69vw;
+  font-size: 1.7vw;
 }
 
 .contentLeft a.button {
@@ -156,6 +157,7 @@ a.button {
 @media only screen and (max-width: 500px) {
   #content > div {
     width: max(80vw, 350px);
+    height: calc((max(80vw, 350px) * (3/5)) + 40px + 2.1vw + 1.7vw + 15px);
   }
   
   #content {
@@ -166,11 +168,12 @@ a.button {
     font-size: 25px;
     top: 0;
     left: 0;
+    position: absolute;
   }
   
   #content > div img {
-    width: 80vw;
-    height: 133.33vw;
+    width: max(80vw, 350px);
+    height: calc(max(80vw, 350px) * (3/5));
     top: 40px;
     left: 0;
     position: absolute;
@@ -180,8 +183,15 @@ a.button {
     top: 40px;
     left: 0;
     position: absolute;
-    font-size: 1.66vw;
+    font-size: 16px;
     margin: 0;
-    width: 30.21vw;
+    width: max(40vw, 175px);
+  }
+  
+  a.button {
+    bottom: 0;
+    left: 0;
+    width: max(80vw, 350px);
+    position: absolute;
   }
 }
