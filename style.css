@@ -173,7 +173,7 @@ a.button {
   }
   
   #content > div p {
-    top: 40px;
+    top: 0;
     left: 0;
     position: absolute;
     font-size: 16px;
@@ -186,6 +186,7 @@ a.button {
     top: 0;
     left: 0;
     position: absolute;
+    margin-bottom: 25px;
   }
   
   a.button {
