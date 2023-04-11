@@ -154,5 +154,34 @@ a.button {
 }
 
 @media only screen and (max-width: 500px) {
-
+  #content > div {
+    width: max(80vw, 350px);
+  }
+  
+  #content {
+    padding-left: calc((100vw - max(80vw, 350px)) / 2);
+  }
+  
+  .contentHeader {
+    font-size: 25px;
+    top: 0;
+    left: 0;
+  }
+  
+  #content > div img {
+    width: 80vw;
+    height: 133.33vw;
+    top: 40px;
+    left: 0;
+    position: absolute;
+  }
+  
+  #content > div p {
+    top: 40px;
+    left: 0;
+    position: absolute;
+    font-size: 1.66vw;
+    margin: 0;
+    width: 30.21vw;
+  }
 }
