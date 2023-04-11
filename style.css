@@ -174,22 +174,34 @@ a.button {
   
   #content > div p {
     top: 0;
-    left: 0;
+    left: 15px;
     position: absolute;
     font-size: 16px;
     margin: 0;
     width: max(40vw, 175px);
   }
   
+  .contentRight > div p {
+    left: unset;
+    right: 15px;
+  }
+  
   .contentHeader {
     font-size: 25px;
     margin-bottom: 25px;
+    position: relative;
+    right: 15px;
+  }
+  
+  .contentRight .contentHeader {
+    right: unset;
+    left: 15px;
   }
   
   a.button {
     bottom: 0;
     left: 0;
-    right: none;
+    right: unset;
     width: calc(max(80vw, 350px));
     position: absolute;
     padding: 10px 0;
