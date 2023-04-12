@@ -182,10 +182,7 @@ a.button {
   }
   
   .contentRight > p {
-  }
-  
-  .contentRight > p {
-    left: unset;
+    left: unset !important;
     right: 15px;
   }
   
@@ -208,5 +205,6 @@ a.button {
     width: calc(max(80vw, 350px));
     position: absolute;
     padding: 10px 0;
+    text-align: center;
   }
 }
