@@ -158,7 +158,7 @@ a.button {
 @media only screen and (max-width: 500px) {
   #content > div {
     width: var(--mobileWidth);
-    height: calc((var(--mobileWidth) * (3/5)) + 40px + 20px + 1.7vw + 15px);
+    height: calc((var(--mobileWidth) * (3/5)) + 40px + 20px + 14px + 15px);
   }
   
   #content {
@@ -207,5 +207,6 @@ a.button {
     position: absolute;
     padding: 10px 0;
     text-align: center;
+    font-size: 14px;
   }
 }
