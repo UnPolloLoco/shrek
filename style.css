@@ -155,6 +155,10 @@ a.button {
   right: 38.88vw;
 }
 
+.imageOverlay {
+  background: none;
+}
+
 @media only screen and (max-width: 500px) {
   #content > div {
     width: var(--mobileWidth);
@@ -209,5 +213,13 @@ a.button {
     padding: 10px 0;
     text-align: center;
     font-size: 14px;
+  }
+  
+  .contentLeft .imageOverlay {
+    background: linear-gradient(90deg, white 0%, transparent 60%);
+  }
+  
+  .contentRight .imageOverlay {
+    background: linear-gradient(270deg, white 0%, transparent 60%);
   }
 }
