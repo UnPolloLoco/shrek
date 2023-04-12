@@ -177,7 +177,7 @@ a.button {
     top: 0;
     left: 15px;
     position: absolute;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
     width: calc(var(--mobileWidth) / 2);
   }
@@ -192,6 +192,7 @@ a.button {
     margin-bottom: 25px;
     position: relative;
     right: 15px;
+    wrap: nowrap;
   }
   
   .contentRight .contentHeader {
