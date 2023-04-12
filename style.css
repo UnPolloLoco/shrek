@@ -10,6 +10,7 @@ html {
 
 :root {
   --swampy: rgb(80,100,0);
+  --mobileWidth: min(85vw, 350px);
 }
 
 #introDiv {
@@ -157,16 +158,16 @@ a.button {
 @media only screen and (max-width: 500px) {
   #content > div {
     width: max(80vw, 350px);
-    height: calc((max(80vw, 350px) * (3/5)) + 40px + 20px + 1.7vw + 15px);
+    height: calc((var(--mobileWidth) * (3/5)) + 40px + 20px + 1.7vw + 15px);
   }
   
   #content {
-    padding-left: calc((100vw - max(80vw, 350px)) / 2);
+    padding-left: calc((100vw - var(--mobileWidth)) / 2);
   }
   
   #content > div img {
     width: max(80vw, 350px);
-    height: calc(max(80vw, 350px) * (3/5));
+    height: calc(var(--mobileWidth) * (3/5));
     top: 40px;
     left: 0;
     position: absolute;
@@ -178,7 +179,7 @@ a.button {
     position: absolute;
     font-size: 16px;
     margin: 0;
-    width: max(40vw, 175px);
+    width: calc(var(--mobileWidth) / 2);
   }
   
   .contentRight > p {
@@ -202,7 +203,7 @@ a.button {
     bottom: 0;
     left: 0 !important;
     right: unset;
-    width: calc(max(80vw, 350px));
+    width: var(--mobileWidth);
     position: absolute;
     padding: 10px 0;
     text-align: center;
