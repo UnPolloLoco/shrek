@@ -127,6 +127,7 @@ img {
   font-size: 1.66vw;
   margin: 0;
   width: 30.21vw;
+  z-index: 4;
 }
 
 .contentHeader {
@@ -220,6 +221,7 @@ a.button {
     height: calc(var(--mobileWidth) * (3/5));
     position: relative;
     top: 40px;
+    z-index: 5;
   }
   
   .contentLeft .imageOverlay {
