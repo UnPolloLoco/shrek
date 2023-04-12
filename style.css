@@ -215,6 +215,11 @@ a.button {
     font-size: 14px;
   }
   
+  .imageOverlay {
+    width: var(--mobileWidth);
+    height: calc(var(--mobileWidth) * (3/5));
+  }
+  
   .contentLeft .imageOverlay {
     background: linear-gradient(90deg, white 0%, transparent 60%);
   }
