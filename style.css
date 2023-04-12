@@ -157,7 +157,7 @@ a.button {
 
 @media only screen and (max-width: 500px) {
   #content > div {
-    width: max(80vw, 350px);
+    width: var(--mobileWidth);
     height: calc((var(--mobileWidth) * (3/5)) + 40px + 20px + 1.7vw + 15px);
   }
   
@@ -166,7 +166,7 @@ a.button {
   }
   
   #content > div img {
-    width: max(80vw, 350px);
+    width: var(--mobileWidth);
     height: calc(var(--mobileWidth) * (3/5));
     top: 40px;
     left: 0;
