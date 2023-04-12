@@ -181,7 +181,10 @@ a.button {
     width: max(40vw, 175px);
   }
   
-  .contentRight > div p {
+  .contentRight > p {
+  }
+  
+  .contentRight > p {
     left: unset;
     right: 15px;
   }
