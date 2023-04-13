@@ -221,14 +221,14 @@ a.button {
     height: calc(var(--mobileWidth) * (3/5));
     position: relative;
     top: 40px;
-    z-index: 5;
+    z-index: 3;
   }
   
   .contentLeft .imageOverlay {
-    background: linear-gradient(90deg, white 0%, transparent 60%);
+    background: linear-gradient(90deg, rgba(255,255,255, 0.8) 0%, transparent 65%);
   }
   
   .contentRight .imageOverlay {
-    background: linear-gradient(270deg, white 0%, transparent 60%);
+    background: linear-gradient(270deg, rgba(255,255,255, 0.8) 0%, transparent 65%);
   }
 }
