@@ -160,7 +160,7 @@ a.button {
   background: none;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   #content > div {
     width: var(--mobileWidth);
     height: calc((var(--mobileWidth) * (3/5)) + 40px + 20px + 14px + 15px);
