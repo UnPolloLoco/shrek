@@ -69,14 +69,22 @@ html {
   font-size: 18px;
 }
 
-#content {
+#mainPage {
   top: 100vh;
   left: 0;
   position: absolute;
+}
+
+#content, #contentTwo {
   width: calc(100vw - (100vw - 69.44vw));
   min-height: 100px;
   padding: 4.16vw 0;
   padding-left: calc((100vw - 69.44vw) / 2);
+}
+
+#contentTwo {
+  background: var(--swampy);
+  color: white;
 }
 
 img {
