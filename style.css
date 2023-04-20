@@ -132,7 +132,7 @@ img {
 #content > div p {
   top: 0;
   position: absolute;
-  font-size: 1.66vw;
+  font-size: 1.5vw;
   margin: 0;
   width: 30.21vw;
   z-index: 4;
@@ -168,7 +168,7 @@ a.button {
   background: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   #content > div {
     width: var(--mobileWidth);
     height: calc((var(--mobileWidth) * (3/5)) + 40px + 20px + 14px + 15px);
