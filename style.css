@@ -187,6 +187,7 @@ a.button {
   top: 4vw;
   position: relative;
   border-radius: 1vw;
+  border: 0.25vw solid var(--swampy);
 }
 
 .movie img {
