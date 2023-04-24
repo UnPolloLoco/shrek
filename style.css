@@ -10,6 +10,7 @@ html {
 
 :root {
   --swampy: rgb(80,100,0);
+  --swampyDark: rgb(25,35,20);
   --mobileWidth: min(85vw, 350px);
 }
 
@@ -83,8 +84,11 @@ html {
 }
 
 #contentTwo {
-  background: var(--swampy);
+  background: var(--swampyDark);
   color: white;
+  width: 100vw;
+  margin: none;
+  padding: 0;
 }
 
 img {
@@ -166,6 +170,25 @@ a.button {
 
 .imageOverlay {
   background: none;
+}
+
+#movieList {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5vw;
+  margin-left: calc((100vw - 70vw) / 2);
+  width: 70vw;
+}
+
+.movie {
+  width: 12.5vw;
+  height: 25vw;
+  overflow: hidden;
+  border: 1px solid red;
+}
+
+.movie img {
+  height: 12.5vw;
 }
 
 @media only screen and (max-width: 650px) {
