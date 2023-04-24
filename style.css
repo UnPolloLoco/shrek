@@ -184,11 +184,20 @@ a.button {
   width: 12.5vw;
   height: 25vw;
   overflow: hidden;
-  border: 1px solid red;
+  top: 4vw;
+  position: relative;
 }
 
 .movie img {
   height: 12.5vw;
+}
+
+#contentTwo h1 {
+  margin: 5vw 0 8vw 15vw;
+  font-size: 4vw;
+  position: relative;
+  top: 5vw;
+  font-family: 'Patua One', serif;
 }
 
 @media only screen and (max-width: 650px) {
