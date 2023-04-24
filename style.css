@@ -175,14 +175,14 @@ a.button {
 #movieList {
   display: flex;
   flex-flow: row wrap;
-  gap: 4.466vw;
+  gap: 4.33vw;
   margin-left: calc((100vw - 70vw) / 2);
   width: 70vw;
 }
 
 .movie {
   width: 12.5vw;
-  height: 23vw;
+  height: 20vw;
   overflow: hidden;
   top: 4vw;
   position: relative;
@@ -190,7 +190,7 @@ a.button {
 }
 
 .movie img {
-  height: 19.8vw;
+  height: 16.9vw;
 }
 
 .movie a {
@@ -203,6 +203,8 @@ a.button {
   color: white;
   text-decoration: none;
   box-shadow: 0 0 3vw black;
+  text-align: center;
+  font-size: 1.5vw;
 }
 
 #contentTwo h1 {
