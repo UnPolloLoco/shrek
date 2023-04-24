@@ -182,7 +182,7 @@ a.button {
 
 .movie {
   width: 12.5vw;
-  height: 25vw;
+  height: 23vw;
   overflow: hidden;
   top: 4vw;
   position: relative;
@@ -190,15 +190,19 @@ a.button {
 }
 
 .movie img {
-  height: 15vw;
+  height: 19.8vw;
 }
 
 .movie a {
   bottom: 0;
   left: 0;
+  position: absolute;
   width: 100%;
   background: var(--swampy);
-  padding: 0.5vw 0;
+  padding: 0.8vw 0;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 0 3vw black;
 }
 
 #contentTwo h1 {
