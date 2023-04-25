@@ -79,7 +79,7 @@ html {
 #content, #contentTwo {
   width: calc(100vw - (100vw - 69.44vw));
   min-height: 50vw;
-  padding: 4.16vw 0;
+  padding: 8.6vw 0 4.16vw 0;
   padding-left: calc((100vw - 69.44vw) / 2);
 }
 
@@ -184,15 +184,14 @@ a.button {
 .movie {
   width: 18.33vw;
   height: 16.36vw;
-  overflow: hidden;
   top: 4vw;
   position: relative;
-  border-radius: 1vw;
 }
 
 .movie img {
   height: 16.36vw;
   width: 11.45vw;
+  box-shadow: 0 1vw 2vw rgb(8,10,8);
 }
 
 .movie p {
