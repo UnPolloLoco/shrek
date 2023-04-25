@@ -207,14 +207,14 @@ a.button {
   bottom: 0;
   right: 0;
   position: absolute;
-  width: 8vw;
+  width: 7vw;
   background: var(--swampy);
   padding: 0.8vw 0;
   color: white;
   text-decoration: none;
-  box-shadow: 0 0 3vw black;
   text-align: center;
   font-size: 1.5vw;
+  border-radius: 1vw;
 }
 
 #contentTwo h1 {
