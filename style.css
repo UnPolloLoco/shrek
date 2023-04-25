@@ -10,7 +10,7 @@ html {
 
 :root {
   --swampy: rgb(80,100,0);
-  --swampyDark: rgb(25,35,20);
+  --swampyDark: rgb(20,25,20);
   --mobileWidth: min(85vw, 350px);
 }
 
@@ -176,14 +176,14 @@ a.button {
   display: flex;
   flex-flow: row wrap;
   gap: 5vw;
-  margin-left: calc((100vw - 70vw) / 2);
+  margin-left: 15vw;
   width: 70vw;
   justify-content: space-between;
 }
 
 .movie {
-  width: 22vw;
-  height: 20vw;
+  width: 18.33vw;
+  height: 16.36vw;
   overflow: hidden;
   top: 4vw;
   position: relative;
@@ -191,15 +191,15 @@ a.button {
 }
 
 .movie img {
-  height: 20vw;
-  width: 14vw;
+  height: 16.36vw;
+  width: 11.45vw;
 }
 
 .movie p {
   position: absolute;
   top: 0;
   left: 15vw;
-  font-size: 1.5vw;
+  font-size: 1.25vw;
   width: 6vw;
 }
 
@@ -207,13 +207,13 @@ a.button {
   bottom: 0;
   right: 0;
   position: absolute;
-  width: 7vw;
+  width: 5.88vw;
   background: var(--swampy);
   padding: 0.8vw 0;
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 1.25vw;
   border-radius: 1vw;
 }
 
