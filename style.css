@@ -121,6 +121,7 @@ img {
   width: 34.72vw;
   top: 0;
   position: absolute;
+  box-shadow: 0 1vw 2vw 0.5vw rgb(200,200,200);
 }
 
 .contentLeft p {
@@ -191,7 +192,7 @@ a.button {
 .movie img {
   height: 16.36vw;
   width: 11.45vw;
-  box-shadow: 0 1vw 2vw rgb(8,10,8);
+  box-shadow: 0 1vw 2vw 0.5vw rgb(8,10,8);
 }
 
 .movie p {
@@ -225,10 +226,10 @@ a.button {
 }
 
 #contentTwo h1 {
-  margin: 5vw 0 8vw 15vw;
+  margin: 5vw 0 11vw 15vw;
   font-size: 4vw;
   position: relative;
-  top: 5vw;
+  top: 8vw;
   font-family: 'Patua One', serif;
   font-weight: normal;
 }
@@ -251,6 +252,7 @@ a.button {
     top: 40px;
     left: 0;
     position: absolute;
+    box-shadow: none;
   }
   
   #content > div p {
