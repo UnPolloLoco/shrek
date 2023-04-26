@@ -156,9 +156,11 @@ a.button {
   text-decoration: none;
   color: white;
   background: var(--swampy);
-  padding: 1.05vw 4.16vw;
+  padding: 1.05vw 4vw;
   border-radius: 0.69vw;
   font-size: 1.7vw;
+  width: 7vw;
+  text-align: center;
 }
 
 .contentLeft a.button {
