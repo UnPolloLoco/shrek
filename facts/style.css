@@ -32,7 +32,7 @@
 
 p {
   position: absolute;
-  top: calc(15vh + 5vw);
+  top: calc(30vh + 5vw);
   left: 50vw;
   transform: translate(-50%, 0);
   width: 66vw;
