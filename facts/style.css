@@ -45,6 +45,17 @@ div:not(#headerDim) {
   border: solid 1px red;
 }
 
+div:not(#headerDim) > div {
+  width: 30vw;
+  background: rgb(230,230,230);
+  height: 100%;
+}
+
+#description, #fact {
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
+
 #description {
   position: absolute;
   top: 0;
@@ -59,7 +70,9 @@ div:not(#headerDim) {
   right: 0;
   width: 28vw;
   height: 25vw;
-  border: 0.3vw solid black;
+  background: white;
+  border-radius: 0.5vw;
+  padding: 1vw;
 }
 
 button {
@@ -68,5 +81,7 @@ button {
   right: 0;
   width: 28vw;
   height: 4vw;
-  background: var(--swampy);
+  background: white;
+  box-shadow: 0 0.5vw rgb(230,230,230);
+  border: none;
 }
