@@ -4,6 +4,12 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+:root {
+  --swampy: rgb(80,100,0);
+  --swampyDark: rgb(20,25,20);
+  --mobileWidth: min(85vw, 350px);
+}
+
 #headerImg, #headerDim {
   top: 0; 
   left: 0;
@@ -30,11 +36,35 @@
   text-shadow: 0 0 0.5vw black;
 }
 
-p {
-  position: absolute;
-  top: calc(30vh + 5vw);
+div:not(#headerDim) {
+  top: calc(30vh + 7vw);
   left: 50vw;
+  position: absolute;
   transform: translate(-50%, 0);
   width: 66vw;
-  font-size: 1.25vw;
+  border: solid 1px red;
+}
+
+#description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28vw;
+  height: 30vw;
+}
+
+#fact {
+  top: 0;
+  right: 0;
+  width: 28vw;
+  height: 25vw;
+  border: 0.3vw solid black;
+}
+
+button {
+  bottom: 0;
+  right: 0;
+  width: 28vw;
+  height: 4vw;
+  background: var(--swampy);
 }
