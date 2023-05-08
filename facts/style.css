@@ -43,6 +43,7 @@ div:not(#headerDim) {
   transform: translate(-50%, 0);
   width: 66vw;
   border: solid 1px red;
+  height: 40vw;
 }
 
 div:not(#headerDim) > div {
