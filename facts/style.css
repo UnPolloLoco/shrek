@@ -54,6 +54,7 @@ div:not(#headerDim) {
 }
 
 #fact {
+  position: absolute;
   top: 0;
   right: 0;
   width: 28vw;
@@ -62,6 +63,7 @@ div:not(#headerDim) {
 }
 
 button {
+  position: absolute;
   bottom: 0;
   right: 0;
   width: 28vw;
