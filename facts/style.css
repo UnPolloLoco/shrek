@@ -50,6 +50,10 @@ div:not(#headerDim) > div {
   background: rgb(230,230,230);
   height: 100%;
   margin: 1vw;
+  top: 0;
+  right: 0;
+  position: absolute;
+  border-radius: 2vw;
 }
 
 #description, #fact {
@@ -73,7 +77,9 @@ div:not(#headerDim) > div {
   height: 25vw;
   background: white;
   border-radius: 0.5vw;
+  margin: 1vw;
   padding: 1vw;
+  border-radius: 1vw;
 }
 
 button {
@@ -85,4 +91,7 @@ button {
   background: white;
   box-shadow: 0 0.5vw rgb(230,230,230);
   border: none;
+  width: 30vw;
+  margin: 1vw;
+  border-radius: 1vw;
 }
