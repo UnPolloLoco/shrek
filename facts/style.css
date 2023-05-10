@@ -42,14 +42,14 @@ div:not(#headerDim) {
   position: absolute;
   transform: translate(-50%, 0);
   width: 66vw;
-  height: 40vw;
+  height: 35vw;
 }
 
 div:not(#headerDim) > div {
   width: 32vw;
   background: rgb(230,230,230);
   height: 100%;
-  margin: 1vw;
+  margin: 0;
   top: 0;
   right: 0;
   position: absolute;
