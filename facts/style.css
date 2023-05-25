@@ -42,7 +42,7 @@
   position: absolute;
   transform: translate(-50%, 0);
   width: 66vw;
-  height: 35vw;
+  height: 28vw;
 }
 
 #description, #fact {
@@ -52,6 +52,7 @@
   width: 28vw;
   position: absolute;
   top: 0;
+  height: 100%;
 }
 
 #description {
@@ -83,9 +84,9 @@ button {
 
 a {
   color: var(--swampy);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: rgb(96, 120, 5);
 }
