@@ -42,7 +42,7 @@
   position: absolute;
   transform: translate(-50%, 0);
   width: 66vw;
-  height: 28vw;
+  height: 40vw;
 }
 
 #description, #fact {
@@ -52,7 +52,7 @@
   width: 28vw;
   position: absolute;
   top: 0;
-  height: 100%;
+  height: 27vw;
 }
 
 #description {
