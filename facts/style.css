@@ -37,7 +37,7 @@
 }
 
 div:not(#headerDim) {
-  top: calc(30vh + 7vw);
+  top: calc(30vh + 8vw);
   left: 50vw;
   position: absolute;
   transform: translate(-50%, 0);
@@ -45,53 +45,31 @@ div:not(#headerDim) {
   height: 35vw;
 }
 
-div:not(#headerDim) > div {
-  width: 32vw;
-  background: rgb(230,230,230);
-  height: 100%;
-  margin: 0;
-  top: 0;
-  right: 0;
-  position: absolute;
-  border-radius: 2vw;
-}
-
 #description, #fact {
   font-size: 1.5vw;
   line-height: 2.5vw;
+  margin: 0;
+  width: 28vw;
+  position: absolute;
+  top: 0;
 }
 
 #description {
-  position: absolute;
-  top: 0;
   left: 0;
-  width: 28vw;
-  height: 30vw;
+  border-right: solid 2px rgb(100,100,100);
+  padding-right: 5vw;
 }
 
 #fact {
-  position: absolute;
-  top: 0;
   right: 0;
-  width: 28vw;
-  height: 25vw;
-  background: white;
-  border-radius: 0.5vw;
-  margin: 1vw;
-  padding: 1vw;
-  border-radius: 1vw;
+  padding: 0;
 }
 
-button {
-  position: absolute;
+#button {
   bottom: 0;
   right: 0;
   width: 28vw;
-  height: 4vw;
-  background: white;
-  box-shadow: 0 0.5vw rgb(230,230,230);
-  border: none;
-  width: 30vw;
-  margin: 1vw;
-  border-radius: 1vw;
+  padding: 1vw 0;
+  background: var(--swampy);
+  color: white;
 }
