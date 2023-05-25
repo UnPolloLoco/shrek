@@ -36,7 +36,7 @@
   text-shadow: 0 0 0.5vw black;
 }
 
-div:not(#headerDim) {
+#content {
   top: calc(30vh + 8vw);
   left: 50vw;
   position: absolute;
@@ -72,4 +72,5 @@ div:not(#headerDim) {
   padding: 1vw 0;
   background: var(--swampy);
   color: white;
+  border: none;
 }
