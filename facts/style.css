@@ -56,7 +56,7 @@
 
 #description {
   left: 0;
-  border-right: solid 2px rgb(100,100,100);
+  border-right: solid 2px rgb(220,220,220);
   padding-right: 5vw;
 }
 
@@ -72,15 +72,18 @@
 button {
   bottom: 0;
   right: 0;
+  position: absolute;
   width: 28vw;
   padding: 1vw 0;
   background: var(--swampy);
   color: white;
   border: none;
+  border-radius: 1vw;
 }
 
 a {
   color: var(--swampy);
+  text-decoration: none;
 }
 
 a:hover {
