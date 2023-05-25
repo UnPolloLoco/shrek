@@ -78,3 +78,11 @@ button {
   color: white;
   border: none;
 }
+
+a {
+  color: var(--swampy);
+}
+
+a:hover {
+  text-decoration: underline;
+}
