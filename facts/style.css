@@ -10,6 +10,18 @@
   --mobileWidth: min(85vw, 350px);
 }
 
+#back {
+  top: 0.3vw;
+  left: 0.4vw;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+}
+#back:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 #headerImg, #headerDim {
   top: 0; 
   left: 0;
