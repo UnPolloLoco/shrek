@@ -32,7 +32,7 @@
   overflow: hidden;
 }
 
-#headerImg, #headerDim {
+#headerImg {
   top: -30vw; 
   left: 0;
   position: absolute;
@@ -43,6 +43,11 @@
 #headerDim {
   background: rgba(0,0,0, 0.7);
   z-index: 523543;
+  width: 100%;
+  height: 30vw;
+  top: 0;
+  left: 0;
+  position: absolute;
 }
 
 #headerText {
