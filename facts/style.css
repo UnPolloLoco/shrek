@@ -46,13 +46,13 @@
 }
 
 #description, #fact {
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   line-height: 2.5vw;
   margin: 0;
   width: 28vw;
   position: absolute;
   top: 0;
-  height: 27vw;
+  height: 25vw;
 }
 
 #description {
@@ -80,6 +80,7 @@ button {
   color: white;
   border: none;
   border-radius: 1vw;
+  font-size: 1.3vw
 }
 
 a {
