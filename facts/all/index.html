@@ -15,13 +15,24 @@
   <div id="headerDim"></div>
   <h1 id="headerText">All Shrek Facts</h1>
   
-  <a href="/shrek" id="back">Back</a>
+  <a href="/shrek/facts" id="back">Back</a>
   
   <div id="content">
-    <p>gwgewhuiofuhjen wmdzufijdn fbehurdfjn rhjn nhjen dfbrehwuijefnd ebrwhudjnsc bwrhuejdnsc mnerb4hueijwkmfr nbgfehruwijwkmnde nsfbhueijwkmwd nfeijkdm snfeijkmwd nsfjeikmwd snfbhejrwkmd nfbrehwjiwkdm fnerhijkmdw sn</p>
+    <p>
+      gwgewhuiofuhjen wmdzufijdn fbehurdfjn rhjn nhjen dfbrehwuijefnd ebrwhudjnsc bwrhuejdnsc mnerb4hueijwkmfr nbgfehruwijwkmnde nsfbhueijwkmwd nfeijkdm snfeijkmwd nsfjeikmwd snfbhejrwkmd nfbrehwjiwkdm fnerhijkmdw
+    </p>
+    <div>
+      <ul id="factList"></ul>
+    </div>
   </div>
   
   <script src="../script.js"></script>
+  <script>
+    alert(facts);
+    for (let i = 0; i < facts.length; i++) {
+      document.getElementById('factList').innerHTML += `<li>${facts[i]}</li>`;
+    };
+  </script>
 </body>
 
 </html>
