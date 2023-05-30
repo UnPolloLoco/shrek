@@ -76,8 +76,9 @@
   height: 35vw;
 }
 
-#content p, ul {
+#content p {
   font-size: 1.3vw;
   line-height: 2vw;
   margin: 0;
+  margin-bottom: 3vw;
 }
