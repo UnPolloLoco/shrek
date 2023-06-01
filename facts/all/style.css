@@ -89,6 +89,6 @@
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-  border-bottom: solid 2px var(--swampy);
+  border-bottom: solid 2px rgb(220,220,220);
   margin-bottom: 6vw;
 }
