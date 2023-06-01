@@ -82,3 +82,12 @@
   margin: 0;
   margin-bottom: 3vw;
 }
+
+#bar {
+  width: 30vw;
+  height: 1px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-bottom: solid 2px var(--swampy);
+}
