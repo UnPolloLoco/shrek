@@ -317,4 +317,18 @@ a.button {
   .contentRight .imageOverlay {
     background: linear-gradient(270deg, rgba(0,0,0, 0.8) 0%, rgba(0,0,0,0.5) 45%, transparent 75%);
   }
+
+  #movieList {
+    gap: 10vw 6.25vw;
+    margin-left: calc((100vw - var(--mobileWidth)) / 2);
+    width: var(--mobileWidth);
+  }
+
+  .movie {
+    width: calc(var(--mobileWidth) / 2 - 10vw);
+    height: calc((var(--mobileWidth) / 2 - 10vw) / 1.12);
+    top: 4vw;
+    position: relative;
+  }
+
 }
